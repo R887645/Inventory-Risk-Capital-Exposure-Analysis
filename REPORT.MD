@@ -36,6 +36,8 @@ The objective of this analysis was to interrogate raw inventory data, identify r
 - Inventory Value
 - Dependency & Risk Level
 
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory%20Dataset_Raw.png?raw=true)
+
 ---
 
 ## Tools Used
@@ -61,19 +63,39 @@ Several data preparation steps were performed to ensure reliable analysis:
 - Removed duplicate records
 - Standardized product, supplier, and warehouse naming
 - Converted capital exposure into numeric fields
+
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/inventory_Before%20Cleaning.png?raw=true)
+
+
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory_data%20cleaning.png?raw=true
+
 - Built dimensional tables:
   - Product
   - Supplier
   - Warehouse
-  - Stock Status
+  - date
 - Linked dimension tables to a central fact table
 - Created calculated fields for:
-  - Portfolio percentage
-  - Supplier dependency
-  - Risk levels
+  - Stock Status
 - Validated formulas to ensure metric accuracy
 
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/inventory_data%20modelling.png?raw=true)
+
+- Created DAX Measures to ensure accurate Analysis
+- Total Capital Exposure
+- Total Inventory Value
+- Understock Product Count
+- Overstocked Counts
+-Total SKUs and lots more
+
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory_DAX.png?raw=true)
+
 ---
+
+## Pivot Table
+The pivot tables were used to summarize and break down the inventory data into clear, actionable views. They allow quick comparisons across product categories, suppliers, and warehouses, showing where capital is concentrated and where risks such as overstock or stockouts are most severe. By grouping and filtering the data, the pivot tables highlight patterns that are not immediately visible in raw records, making it easier for management to detect inefficiencies, monitor exposure, and focus on the areas that require urgent attention.
+
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/inventory_Pivot%20Table%201.png?raw=true)
 
 ## Wireframing (Figma)
 
@@ -81,28 +103,56 @@ Before building the Excel dashboards, wireframes were designed in Figma to plan 
 
 ### Wireframe Pages
 
-**Home Page**
+**Capital & Stock Risk Analysis + Supplier & Warehouse Conc Analysis**
 - High-level overview of the inventory system
 - Navigation buttons to analysis pages
 
+
+Wireframing ensured clarity of design and reduced rework during dashboard implementation.
+
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory_WIREFRAMING.png?raw=true)
+
+---
+
+## Dashboard Overview
+
+The Excel dashboards developed for this project include:
+
+### Inventory Capital & Stock Risk
+- Total capital exposure
+- Product capital breakdown
+- Stock status distribution
+
+![My Image]()
+
+### Supplier & Warehouse Concentartion Analysis
+- Supplier dependency levels
+- Lead time evaluation
+- Warehouse capital distribution
+![My Image]()
+
+### Category Risk Tables
+- Portfolio share by category
+- Dependency flags
+- Risk levels
+
+---
+## Table Analysis Page
+
+This page served as the **foundation of the entire analysis**, providing the detailed numerical breakdown supporting the dashboards.
+
 **Table Analysis Page**
 - Detailed breakdown of capital exposure by:
-  - Product
+  - Category
   - Supplier
   - Warehouse
+
+![My Image]()
 
 **Risk Pages**
 - Category risk tables
 - Supplier dependency flags
 - Warehouse risk indicators
-
-Wireframing ensured clarity of design and reduced rework during dashboard implementation.
-
----
-
-## Table Analysis Page
-
-This page served as the **foundation of the entire analysis**, providing the detailed numerical breakdown supporting the dashboards.
 
 ### Key Components
 
@@ -110,6 +160,8 @@ This page served as the **foundation of the entire analysis**, providing the det
 - Capital exposure by **stock status**
 - Supplier dependency indicators
 - Warehouse distribution of inventory capital
+
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory_WIREFRAMING.png?raw=true)
 
 ### Key Findings
 
@@ -160,29 +212,6 @@ Introduce trend-based restocking models to anticipate demand and reduce inventor
 
 ---
 
-## Dashboard Overview
-
-The Excel dashboards developed for this project include:
-
-### Inventory Capital & Stock Risk
-- Total capital exposure
-- Product capital breakdown
-- Stock status distribution
-
-### Supplier & Warehouse Analysis
-- Supplier dependency levels
-- Lead time evaluation
-- Warehouse capital distribution
-
-### Category Risk Tables
-- Portfolio share by category
-- Dependency flags
-- Risk levels
-
-### Table Analysis Page
-- Detailed numeric breakdown supporting dashboard visuals
-
----
 
 ## Limitations
 
