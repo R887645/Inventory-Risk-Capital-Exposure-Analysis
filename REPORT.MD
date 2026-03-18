@@ -1,3 +1,5 @@
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory%20Risk%20&%20Capital%20Exposure%20Analysis.png?raw=true)
+
 # Inventory Risk & Capital Exposure Analysis  
 ## Managing Exposure Across Products, Suppliers & Warehouses
 
