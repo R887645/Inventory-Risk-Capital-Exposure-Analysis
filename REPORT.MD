@@ -67,7 +67,7 @@ Several data preparation steps were performed to ensure reliable analysis:
 ![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/inventory_Before%20Cleaning.png?raw=true)
 
 
-![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory_data%20cleaning.png?raw=true
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Inventory_data%20cleaning.png?raw=true)
 
 - Built dimensional tables:
   - Product
@@ -123,13 +123,13 @@ The Excel dashboards developed for this project include:
 - Product capital breakdown
 - Stock status distribution
 
-![My Image]()
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Capital%20and%20Stock%20isk%20Analysis.png?raw=true)
 
 ### Supplier & Warehouse Concentration Analysis
 - Supplier dependency levels
 - Lead time evaluation
 - Warehouse capital distribution
-![My Image]()
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Supplier%20and%20Warehouse%20Conc%20Analysis.png?raw=true)
 
 ### Category Risk Tables
 - Portfolio share by category
@@ -147,9 +147,9 @@ This page served as the **foundation of the entire analysis**, providing the det
   - Supplier
   - Warehouse
 
-![My Image]()
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Table%20Analysis.png?raw=true)
 
-## Inventory Risk Insights (Fixed Logic)
+## Inventory Risk Insights
 
 ### Category Risk
 
@@ -192,6 +192,8 @@ All warehouses are correctly flagged **High Risk**:
 **Insight:**  
 Despite balanced distribution across warehouses, **excess stock concentration is driving operational risk** and increasing inventory carrying costs.
 
+![My Image](https://github.com/R887645/Inventory-Risk-Capital-Exposure-Analysis/blob/main/Table%20Analysis.png?raw=true)
+
 
 ### Key Components
 
@@ -230,6 +232,7 @@ The analysis aimed to answer the following questions:
 - Warehouse capital share appears balanced (~33% each), but **product mix drives risk**
 - Lead time analysis suggests potential **restocking delays**
 
+**[View My Full Slides](https://drive.google.com/file/d/1HdGUN9Lbn6HIDUbpL_MXwLSa3Md0T3oI/view?usp=sharing)**
 ---
 
 ## Recommendations
@@ -264,7 +267,7 @@ Introduce trend-based restocking models to anticipate demand and reduce inventor
 
 This project transformed raw inventory data into clear, actionable insights. By combining **Excel dashboards** with **Figma wireframes**, the analysis revealed significant capital tied up in overstock inventory, supplier dependency risks, and warehouse exposure patterns.
 
-The structured table analysis page and dashboards give management clear visibility to optimize inventory decisions, reduce inefficiencies, and support smarter operational planning.**
+The structured table analysis page and dashboards give management clear visibility into optimizing inventory decisions, reducing inefficiencies, and supporting smarter operational planning.**
 
 ---
 
