@@ -125,7 +125,7 @@ The Excel dashboards developed for this project include:
 
 ![My Image]()
 
-### Supplier & Warehouse Concentartion Analysis
+### Supplier & Warehouse Concentration Analysis
 - Supplier dependency levels
 - Lead time evaluation
 - Warehouse capital distribution
@@ -149,10 +149,49 @@ This page served as the **foundation of the entire analysis**, providing the det
 
 ![My Image]()
 
-**Risk Pages**
-- Category risk tables
-- Supplier dependency flags
-- Warehouse risk indicators
+## Inventory Risk Insights (Fixed Logic)
+
+### Category Risk
+
+All categories show **High Risk**, driven by the following factors:
+
+- **Overstock dominance:** Each category has **430+ overstocked items**
+- **Stockouts present:** Even **1–2 out-of-stock items** trigger risk flags
+- **Weak Safe Zone:** Safe stock items range between **61–89**, far below overstock levels
+- **Balanced Portfolio Share:** `%Portfolio` ranges from **19–21%**, therefore **Dependency = Medium**
+
+**Insight:**  
+Even distribution of capital across categories does **not reduce risk** — overall inventory health is poor across all categories.
+
+---
+
+### Supplier Risk
+
+All suppliers are flagged **High Risk**, due to:
+
+- **Overstock counts:** Between **432–667 items**
+- **Stockouts present:** **4 out of 5 suppliers** show stockouts
+- **Safe Zone levels:** Safe stock is significantly lower than overstock levels
+- **Portfolio Share:** `%Portfolio` ranges from **19–22%**, resulting in **Dependency = Medium**
+
+**Insight:**  
+No supplier dominates the portfolio, but **all suppliers carry unhealthy stock mixes**.  
+**MegaBuild Ltd** is particularly risky with **667 overstocked items**.
+
+---
+
+### Warehouse Risk
+
+All warehouses are correctly flagged **High Risk**:
+
+- **Overstock ratios exceed 60%** in every warehouse
+- **Stockouts exist** across locations (**1–5 items**)
+- **Safe Zone counts** are lower than overstock
+- **Capital Share:** `%Share` is evenly split (**33–34%**), meaning **Dependency = Balanced**
+
+**Insight:**  
+Despite balanced distribution across warehouses, **excess stock concentration is driving operational risk** and increasing inventory carrying costs.
+
 
 ### Key Components
 
